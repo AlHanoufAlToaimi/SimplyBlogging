@@ -118,12 +118,56 @@ body {
   }
 
 
-  #mainImage {
-    margin-top: 10px;
-    background-color:rgb(8, 57, 105);
+  #myImage {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    
   width: 100%;
 
   }
+
+  /*Any image*/
+.anyimg { 
+    margin-top: 10px;
+    background-color:rgb(182, 188, 194);
+  width: 100%;
+ 
+}
+  
+  /* Clear floats after the columns */
+  #row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  #col:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+#NewsletterCard {
+    font-family: inherit;
+    background-color:red;
+    padding: 12px;
+    text-align: center;
+    margin-top: 10px;
+    height: 800px;
+}
+
+/*Add a card effect for articles*/
+#card {
+    font-family: inherit;
+    background-color:beige;
+    padding: 12px;
+    text-align: center;
+    margin-top: 10px;
+    height: 395px;
+}
+
+
+
 
 
 
@@ -135,9 +179,10 @@ footer {
     color: bisque;
     background-color: #000000;
     font-size:16px;
+    margin-top: 10px;
 }
 
-footer h2 {
+footer fc {
     font-size:1.3rem;
     padding-bottom: 10px;
     border-bottom: solid 1px #333333;
