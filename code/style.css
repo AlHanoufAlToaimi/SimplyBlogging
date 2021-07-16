@@ -1,0 +1,168 @@
+body {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 14px;
+    line-height: 1.3rem; 
+    margin: 0;
+}
+* {box-sizing: border-box;}
+
+#myHeader h1{
+    margin-top: 25px;
+    margin-bottom: 15px;
+    text-align: center;
+    font-family: Arial Narrow, sans-serif;
+    font-size: 54px;
+    line-height: 2.5rem;
+}
+
+#myHeader h6{
+    text-align: center;
+    font-family: Arial Narrow, sans-serif;
+    font-size: 12px;
+    margin-bottom: 25px;
+}
+
+#topbar {
+    background-color: #723737;
+    color: whitesmoke;
+}
+
+#header-icons ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+#header-icons ul li{
+    float: left;
+    margin-left: 10px;
+}
+
+#header-icons ul li a{
+    text-decoration: none;
+    color:whitesmoke;
+}
+
+#header-icons ul li a:hover,
+#header-icons ul li a:active {
+    color: blueviolet;
+}
+
+#contact {
+    text-align: right;
+}
+
+#contact span{
+    padding: 0px 10px;
+    border-left: solid 1px whitesmoke;
+}
+
+#contact span:first-child{
+    border-left: none;
+}
+
+
+/* Add background color to the navigation bar */
+#navbar {
+    background-color: palevioletred;
+    font-family: Arial Narrow, sans-serif;
+  }
+  
+  /* Style the links inside the navigation bar */
+  #navbar a {
+    float: left;
+  display: block;
+  color:whitesmoke;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 20px;
+  }
+  
+  /* Change the color of links on hover */
+  #navbar a:hover {
+    background-color:whitesmoke;
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  #navbar a.active {
+    background-color:purple;
+    color: white;
+  }
+  
+ /* Style the search box inside the navigation bar */
+#navbar input[type=text] {
+    float: right;
+    padding: 6px;
+    border: none;
+    margin-top: 6px;
+    margin-right: 16px;
+    font-size: 17px;
+  }
+  
+  /* When the screen is less than 600px wide, stack the links and the search field vertically instead of horizontally */
+  @media screen and (max-width: 600px) {
+    #navbar a, .navbar input[type=text] {
+      float: none;
+      display: block;
+      text-align: left;
+      width: 100%;
+      margin: 0;
+      padding: 14px;
+    }
+    #navbar input[type=text] {
+      border: 1px solid #ccc;
+    }
+  }
+
+
+  #mainImage {
+    margin-top: 10px;
+    background-color:rgb(8, 57, 105);
+  width: 100%;
+
+  }
+
+
+
+
+
+
+footer {
+    padding: 40px 10px;
+    color: bisque;
+    background-color: #000000;
+    font-size:16px;
+}
+
+footer h2 {
+    font-size:1.3rem;
+    padding-bottom: 10px;
+    border-bottom: solid 1px #333333;
+}
+
+footer .list-group .list-group-item {
+    color: bisque;
+    background-color: black;
+    border-bottom: dashed 1px #333333;
+}
+
+footer .social-links a {
+    color: bisque;
+    margin: 5px;
+}
+
+footer .email-address a{
+    color: bisque;
+    text-decoration: none;
+}
+
+#copyright-declaration {
+    background-color: #333333;
+    color: bisque;
+    text-align: center;
+    padding: 1rem;
+    border-top: solid 1px coral;
+}
