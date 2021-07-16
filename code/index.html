@@ -19,6 +19,7 @@
       <div class="container-fluid">
         <h1>HToaimi Simply Blogging</h1>
         <h6>Great Newsletters and Informative Articles</h6>
+        <small id="demo"></small>
       </div>
     </div>
     
@@ -58,17 +59,17 @@
      <div class="container-fluid">
       <div class="row">
      <div id="myImage">
-        <img src="https://placeimg.com/1245/300/tech">
+        <img src="https://placeimg.com/600/300/tech">
       </div></div></div>
     
       
       <div class="container-fluid">
         <div class="row">
           <div class="col">
-            <div id="NewsletterCard" class="card">  <b>Newsletter</b>
+            <div id="NewsletterCard" class="card border-secondary">  <b>Newsletter</b>
               <div class="anyimg"><img src="https://placeimg.com/320/140/people/grayscale"></div>
               <p>Consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a.</p>
-              <div class="anyimg"><img src="https://placeimg.com/320/140/people/grayscale"></div>
+              <div class="anyimg"><img src="https://placeimg.com/320/140/nature/grayscale"></div>
               <p>Phasellus Cum sociis natoque penatibus et magnis dis parturient montes, consectetuer vestibulum elit tellus metus, Aenean commodo ligula eget dolor. Aenean massa. bibendum sed, Phasellus dolor. Maecenas vestibulum mollis, Phasellus Cum sociis natoque penatibus et magnis dis parturient montes,</p></div>
       
           </div>
@@ -76,7 +77,7 @@
           <div class="col">
             <div class="row">
               <div id="card" class="card">   <b>Article1</b>
-                <div class="anyimg"><img src="https://placeimg.com/320/140/nature"></div>
+                <div class="anyimg"><img src="https://placeimg.com/320/140/people"></div>
                 <p>Phasellus nec sem in justo pellentesque facilisis. Etiam imperdiet imperdiet orci. Nunc nec neque. Phasellus leo dolor, tempus non, auctor et, hendrerit quis, nisi. Curabitur ligula sapien, tincidunt non, euismod vitae, posuere imperdiet, leo. Maecenas malesuada. Praesent congue erat at massa.</p>
             </div>
           </div>
@@ -90,7 +91,7 @@
           <div class="col">
             <div class="row">
               <div id="card" class="card">   <b>Article3</b>
-                <div class="anyimg"><img src="https://placeimg.com/320/140/nature"></div>
+                <div class="anyimg"><img src="https://placeimg.com/320/140/tech"></div>
                 <p>Phasellus nec sem in justo pellentesque facilisis. Etiam imperdiet imperdiet orci. Nunc nec neque. Phasellus leo dolor, tempus non, auctor et, hendrerit quis, nisi. Curabitur ligula sapien, tincidunt non, euismod vitae, posuere imperdiet, leo. Maecenas malesuada. Praesent congue erat at massa.</p>
             </div>
           </div>
@@ -109,11 +110,20 @@
 <!-- Footer -->
       <div class="container-fluid">
         <footer id="footer">
-        <div class="row">
-        </div>
+        
+          <div id="btn">
+
+            <button class="btn btn-outline-light">Browse All Articles</button>
+            <button class="btn btn-outline-light">Add Article</button>
+
+         
+</div>
+
+
+        
         <div class="row">
           <div id="fc">
-            Copy right
+           <p>Copyright &copy; All Rights are Reserved.</p>
           </div>
         </div>
 
@@ -124,7 +134,11 @@
 
 
    
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+    const d = new Date();
+document.getElementById("demo").innerHTML = d;
+    
+    </script>
 
    
   </body>
