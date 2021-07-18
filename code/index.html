@@ -23,6 +23,7 @@
       </div>
     </div>
     
+
     <!-- topbar -->
     <div id="topbar">
       <div class="container-fluid">
@@ -45,13 +46,18 @@
     
     <!-- navbar -->
     <div id="navbar">
-      <div class="row">
-        <div class="container-fluid">
+      <div class="container-fluid">
+          <div class="row">
+          <div class="col-md-6 col-sm-12" id="page-links">
           <a class="active" href="#home">Home</a>  
-          <a href="#about">Newsletters</a>
-          <a href="#articles">Articles</a>
-          <a href="#contact">About Us</a>
-          <input type="text" placeholder="Search...">
+          <a href="#NewsletterCard">Newsletters</a>
+          <a href="#Articlecard">Articles</a>
+          <a href="#aboutus">About Us</a>
+        </div>
+        <div class="col-md-6 col-sm-12" id="login-btn">
+          <button id="loginbutton" class="button btn-sm btn-outline-light" >Login</button>
+        </div>
+
         </div>
       </div>
     </div>
@@ -60,7 +66,7 @@
     <div class="container-fluid">
       <div class="row">
         <div class="col">
-          <h1 class="diaplay-1" style="margin-top: 20px; margin-left:15px;">Welcome to Htoaimi company blog</h1>
+          <h1 id="aboutus" class="diaplay-1" style="margin-top: 20px; margin-left:15px;">Welcome to Htoaimi Company blog</h1>
           <p class="masthead-content text-secondary" style="margin-left:15px;">This is a blog for Htoaimi company website, there are great newsletters and other informative articles posted by experts for the benefit of the customers. We use the following: Visual Studio Code, Bootstrap, HTML/CSS, Javascript and GitHub.
             A few of the source codes are tracked on GitHub repositories.
             </p>
@@ -83,7 +89,7 @@
         <div class="row">
           <div class="col">
             <div class="row">
-              <div id="NewsletterCard" class="card" style=" width: 20rem; height: 405px; background-color:gray">
+              <div id="NewsletterCard" class="card" style=" width: 20rem; height: 405px; background-color:rgb(48, 46, 46)">
                 <div class="card-body">
                   <img src="bnewspaper.jpg" alt="Masthead picture" class="img-fluid">
                 </div>
@@ -91,7 +97,7 @@
             </div>
             
             <div class="row">
-              <div id="card" class="card" style="width: 20rem; height: 390px">
+              <div class="card" style="width: 20rem; height: 390px">
                 <div class="card-body">
                   <strong class="card-title">Article 3</strong>
                   <p class="card-text">Vestibulum fringilla pede sit amet augue. In turpis. Pellentesque posuere. Praesent turpis. Aenean posuere, tortor sed cursus feugiat, nunc augue blandit nunc, eu sollicitudin urna dolor sagittis lacus. Donec elit libero, sodales nec, volutpat a, suscipit non, turpis. Nullam sagittis. Suspendisse pulvinar, augue ac venenatis condimentum, sem libero volutpat nibh, nec pellentesque velit pede quis nunc. Nulla vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Nulla vulputate eget, arcu. In enim justo, Aenean vulputate eleifend tellus.</p>
@@ -103,7 +109,7 @@
           
           <div class="col">
             <div class="row">
-              <div id="card" class="card" style="width: 25rem">
+              <div id="Articlecard" class="card" style="width: 25rem">
                 <div class="card-body">
                   <strong class="card-title">Article 1</strong>
                   <p class="card-text">Phasellus nec sem in justo pellentesque facilisis. facilisis.Donec quam felis, ultricies nec, pellentesque Etiam imperdiet imperdiet orci. Nunc nec neque. Phasellus leo dolor, tempus non, auctor et. Etiam imperdiet imperdiet orci. Nunc nec neque. Phasellus leo dolor, tempus non, auctor et, hendrerit quis, nisi. Curabitur ligula sapien, tincidunt non, euismod vitae, posuere imperdiet, leo. Maecenas malesuada. Praesent congue erat at massa.</p>
@@ -113,7 +119,7 @@
             </div>
             
             <div class="row">
-              <div id="card" class="card" style="width: 25rem">
+              <div class="card" style="width: 25rem">
                 <img class="card-img-top" src="https://placeimg.com/330/140/tech" alt="Card image cap">
                 <div class="card-body">
                   <strong class="card-title">Article 4</strong>
@@ -126,7 +132,7 @@
           
           <div class="col">
             <div class="row">
-              <div id="card" class="card" style="margin-left:10px; width: 25rem; height: 430px">
+              <div class="card" style="margin-left:10px; width: 25rem; height: 430px">
                 <div class="card-body">
                   <strong class="card-title">Article 2</strong>
                   <p class="card-text">Sed ut perspiciatis totam rem aperiam, cta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, Sed ut perspiciatis totam rem aperiam, cta sunt explicabo. adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Phasellus nec sem in justo pellentesque facilisis. imperdiet orci. Nunc nec neque. Phasellus leo dolor, tempus non, auctor et, hendrerit quis, nisi. Curabitur ligula sapien, tincidunt non, euismod vitae, posuere imperdiet, leo. Maecenas malesuada. Phasellus nec sem in justo pellentesque facilisis.Donec quam felis, ultricies nec, pellentesque Etiam imperdiet imperdiet orci. Nunc nec neque. Phasellus leo dolor, tempus non, auctor et.</p>
@@ -136,7 +142,7 @@
             </div>
             
             <div class="row">
-              <div id="card" class="card" style="margin-left:10px  ;width: 25rem; height: 370px">
+              <div class="card" style="margin-left:10px  ;width: 25rem; height: 370px">
                 <img class="card-img-top" src="https://placeimg.com/330/140/arch" alt="Card image cap">
                 <div class="card-body">
                   <strong class="card-title">Article 5</strong>
@@ -149,26 +155,79 @@
         </div>
       </div>
       
-      <!--Footer-->
-      <div class="container-fluid">
-        <footer class="text-center text-white" style="background-color: palevioletred; margin-top: 20px;">
-          <button type="button" class="btn btn-link">Sign up</button>
-          <button type="button" class="btn btn-link">Sign in</button>
+      <!--Footer--><div class="container-fluid">
+      <footer class="text-center text-white" style="background-color: palevioletred; margin-top: 20px;">
+      
 
-          
+
+
+
+         
           <!-- Copyright -->
-          <div class="text-center p-3" style="background-color:#723737;;">
+         
+          <div class="text-center p-3" style="background-color:#723737;">
             Copyright &copy; All Rights are Reserved.
           </div>
+           
+      </footer></div>
+ 
+
+       <!-- Login Modal -->
+      <div class="modal" tabindex="-1" role="dialog" id='loginModal'>
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title">Login</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+           <form action="">
+             <div class="form-group">
+<label for="email">Email</label>
+<input type="email" name="email" id="email" placeholder="abc@example.com" class="form-control">
+
+             </div>
+            
+              <div class="form-group">
+ <label for="password">Password</label>
+ <input type="password" name="password" id="password" placeholder="password" class="form-control">
+
+            </div>
+
+            <div class="form-group">
+<button type="submit" class="btn btn-primary">Login</button>
+
+            </div>
+            
+          </div>
         </div>
-        </footer>
       </div>
+
+
+
       
       <!--Java Script-->
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
-     </script><script> const d = new Date();
-      document.getElementById("demo").innerHTML = d;
       </script>
+      <script>
+
+const d = new Date();
+      document.getElementById("demo").innerHTML = d;
+
+    
+      </script>
+      <script>
+
+const loginModal = new bootstrap.Modal(document.querySelector('#loginModal'),{
+  keyboard:false
+});
+const loginbutton = document.queryselector(loginbutton);
+
+</script>   
+
+
       
     </body>
     </html>
