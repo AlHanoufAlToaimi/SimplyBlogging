@@ -3,9 +3,7 @@ body {
     font-size: 14px;
     line-height: 1.3rem; background-color:whitesmoke;
     margin: 0;
-    
 }
-* {box-sizing: border-box;}
 
 #myHeader h1{
     margin-top: 25px;
@@ -20,6 +18,12 @@ body {
     text-align: center;
     font-family: Arial Narrow, sans-serif;
     font-size: 12px;
+   
+}
+
+#myHeader small{
+    text-align: center;
+    font-family: Arial Narrow, sans-serif;
     margin-bottom: 25px;
 }
 
@@ -72,14 +76,14 @@ body {
   
   /* Style the links inside the navigation bar */
   #navbar a {
-    float: left;
-  display: block;
-  color:whitesmoke;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-weight: bold;
-  font-size: 20px;
+      float: left;
+      display: block;
+      color:whitesmoke;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 20px;
   }
   
   /* Change the color of links on hover */
@@ -119,80 +123,36 @@ body {
     }
   }
 
-
-  #myImage {
+  #logoImage {
     margin-top: 15px;
     margin-bottom: 15px;
-    
-  width: 100%;
-
-  }
+    margin-left: 60px;
+}
 
   /*Any image*/
 .card-img-top { 
     margin-top: 5px;
     background-color:white;
-  width: 100%;
- 
+    width: 100%;
 }
   
-  /* Clear floats after the columns 
-  #row:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
-
-  #col:after {
-    content: "";
-    display: table;
-    clear: both;
-  }*/
-
-
-
-
 .card {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: Arial Narrow, sans-serif;
     background-color:white;
     margin-top: 5px;
-    width: 20rem;  border-width: 2px; border-color: darkgray; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);border-radius: 0
-  
-    
+    width: 20rem;
+    border-width: 2px;
+    border-color: darkgray; 
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 0
 }
 
-
-
-
-
-
-
-
-
-#footer {
-    padding: 40px 10px;
-    color: bisque;
+#bcard {
+    padding: 10px;
+    margin-top:50px;
+    margin-left: 50px;
+    width: 20rem;
+    height: 120px; 
     background-color:palevioletred;
-    font-size:16px; text-align: center;
-    margin-top: 10px; 
 }
-
-#fc {
-    color:whitesmoke;
-    text-align: center;
-  border-top: solid 1px coral;
-  margin-top: 10px;
-}
-
-.button {
-    border: none;
-    color: whitesmoke;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;background-color: palevioletred;
-  }
   
