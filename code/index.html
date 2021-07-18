@@ -55,14 +55,13 @@
           <a href="#aboutus">About Us</a>
         </div>
         <div class="col-md-6 col-sm-12" id="login-btn">
-          <button id="loginbutton" class="button btn-sm btn-outline-light" >Login</button>
+          <button id="loginbutton" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#loginModal">Login</button>
         </div>
-
-        </div>
+      </div>
       </div>
     </div>
     
-    <!-- Add or Browse Articles -->
+    <!-- About Us and Logo -->
     <div class="container-fluid">
       <div class="row">
         <div class="col">
@@ -155,22 +154,13 @@
         </div>
       </div>
       
-      <!--Footer--><div class="container-fluid">
-      <footer class="text-center text-white" style="background-color: palevioletred; margin-top: 20px;">
-      
-
-
-
-
-         
-          <!-- Copyright -->
-         
-          <div class="text-center p-3" style="background-color:#723737;">
-            Copyright &copy; All Rights are Reserved.
-          </div>
-           
-      </footer></div>
- 
+      <!--Footer-->
+      <footer id="footer-style">
+      <div class="container-fluid">
+        <!-- Copyright -->
+        Copyright &copy; All Rights are Reserved.
+      </div>
+    </footer>
 
        <!-- Login Modal -->
       <div class="modal" tabindex="-1" role="dialog" id='loginModal'>
@@ -183,51 +173,40 @@
               </button>
             </div>
             <div class="modal-body">
-           <form action="">
-             <div class="form-group">
-<label for="email">Email</label>
-<input type="email" name="email" id="email" placeholder="abc@example.com" class="form-control">
-
-             </div>
-            
-              <div class="form-group">
- <label for="password">Password</label>
- <input type="password" name="password" id="password" placeholder="password" class="form-control">
-
+              <form action="">
+                <div class="form-group">
+                  <label for="email">Email</label>
+                  <input type="email" name="email" id="email" placeholder="abc@example.com" class="form-control">
+                </div>
+                <div class="form-group">
+                  <label for="password">Password</label>
+                  <input type="password" name="password" id="password" placeholder="password" class="form-control">
+                </div>
+                <div class="form-group">
+                  <button type="submit" class="btn btn-primary" style="margin-top: 10px;">Login</button>
+                </div>
+              </div>
             </div>
-
-            <div class="form-group">
-<button type="submit" class="btn btn-primary">Login</button>
-
-            </div>
-            
           </div>
-        </div>
-      </div>
 
-
-
-      
       <!--Java Script-->
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
       </script>
-      <script>
-
-const d = new Date();
-      document.getElementById("demo").innerHTML = d;
-
-    
-      </script>
-      <script>
-
-const loginModal = new bootstrap.Modal(document.querySelector('#loginModal'),{
-  keyboard:false
-});
-const loginbutton = document.queryselector(loginbutton);
-
-</script>   
-
-
       
-    </body>
-    </html>
+      <!--Show Date-->
+      <script>
+      const d = new Date();
+      document.getElementById("demo").innerHTML = d;
+      </script> 
+      
+      <!--Login Modal JS-->
+      <script>
+      $(document).ready(function() {$('#loginModal').modal('show');
+      $(function () {
+        $('[data-toggle="tooltip"]').tooltip()
+      })
+    });
+    </script>
+ 
+</body>
+</html>

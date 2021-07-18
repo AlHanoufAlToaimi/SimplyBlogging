@@ -1,7 +1,8 @@
 body {
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 14px;
-    line-height: 1.3rem; background-color:whitesmoke;
+    line-height: 1.3rem;
+    background-color:whitesmoke;
     margin: 0;
 }
 
@@ -110,10 +111,8 @@ body {
 
   #login-btn {
     text-align: right;
-    margin-top: 6px;
-   
-}
-
+    margin-top: 4px;
+   }
 
   /* When the screen is less than 600px wide, stack the links and the search field vertically instead of horizontally */
   @media screen and (max-width: 600px) {
@@ -163,3 +162,11 @@ body {
     background-color:palevioletred;
 }
   
+#footer-style{
+    padding:5px;
+    background-color:#723737; 
+    margin-top: 20px;
+    text-align: center;
+    font-family: Arial Narrow, sans-serif;
+    color:whitesmoke;
+}
